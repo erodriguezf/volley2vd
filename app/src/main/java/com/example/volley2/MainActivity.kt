@@ -49,6 +49,8 @@ class MainActivity : AppCompatActivity() {
             val nameObject = userObject.getJSONObject("name")
             val firstName = nameObject.getString("first")
             Log.d("JSONparcing", gender + " "+ firstName)
+            textView.text = gender + " " + firstName
+
 
 
         }
